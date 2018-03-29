@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Art Maker!</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    
+    <div class="bg-video">
+        <video class="bg-video__content" autoplay loop>
+            <source src="img/pixel.mp4" type="video/mp4">
+        </video>
+    </div>
+                <div class="project">
+                    <h1>Lab - Pixel Art Maker</h1>
+                    <h2>Choose Grid Size</h2>
+                    <form id="sizePicker">
+                        Height:
+                        <input type="number" id="inputHeight" name="height"
+                        min="1" max="25" value="25"> Width:
+                        <input type="number" id="inputWidth" name="width"
+                        min="1" max="50" value="25">
+                        <input type="submit" value="Activate!">
+                    </form>
+                
+                    <p>Height can go from 1-25. Width can go from 1-50. To reset grid please hit Activate! again.</p>
+                    <h2>Pick A Color - Any Color</h2>
+                    <input type="color" id="colorPicker">
+                
+                    <h2>Design a Masterpiece</h2>
+                    <p>Click and drag the mouse to draw. Double Click to erase. Have fun!</p>
+
+                </div>
+        
+            <table id="pixelCanvas"></table>
+    
+    
+    <script src="designs.js"></script>
+    
+</body>
+
+</html>
