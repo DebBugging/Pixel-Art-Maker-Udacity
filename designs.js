@@ -26,7 +26,7 @@ grid.on("mousedown", "td", function (e) {
     drag = true;
     if (drag) {
         $(e.target).css("background-color", color.val());
-    };
+    }
 });
 grid.on("mouseenter", "td", function (e) {
     if (drag) {
