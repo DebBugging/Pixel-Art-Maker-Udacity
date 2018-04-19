@@ -109,6 +109,7 @@ table {
     top: 10%;
     left: 30%;
     display: inline-block;
+    opacity: 0;
 }
 td:hover {
   opacity: 0.9;
