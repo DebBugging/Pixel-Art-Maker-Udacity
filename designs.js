@@ -4,6 +4,8 @@ let drag = false;
 
 //Make grid when click submit
 $("#sizePicker").submit(function makeGrid(e) {
+    //Show the grid when hit submit
+    grid.css("opacity", "1");
     //reset grid
     grid.html("");
     //set the size
